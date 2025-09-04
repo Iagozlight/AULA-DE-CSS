@@ -1,0 +1,32 @@
+.card {
+    background: gray;
+    padding: 20px;
+    width: 300px;
+}
+
+.card:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+h1 {
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 50px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+  background-color: orange;
+  cursor: pointer;
+}
